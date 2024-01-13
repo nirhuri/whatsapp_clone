@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/colors.dart';
 
 class MobileLayoutScreen extends StatelessWidget {
   const MobileLayoutScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Text('Mobile!'),
     );
   }
